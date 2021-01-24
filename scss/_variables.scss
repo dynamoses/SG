@@ -1,0 +1,39 @@
+// Width breakpoints
+$breakpoint-xs: 400px;
+$breakpoint-s: 650px;
+$breakpoint-m: 800px;
+$breakpoint-l: 1000px;
+$breakpoint-xl: 1150px;
+$breakpoint-2xl: 1500px;
+
+// Height breakpoints
+$breakpoint-height-s: 500px;
+$breakpoint-height-m: 600px;
+$breakpoint-height-l: 700px;
+
+// Colours
+$white: #ffffff;
+$grey-light: #f2f2f5;
+$grey-medium: #bbb;
+$grey-dark: #2b2b2b;
+$grey-very-dark: #161616;
+$black: #000000;
+$blue: #00669f;
+$dark-blue: #3b5998;
+$green: #41b675;
+$bright-green: #33cc33;
+
+// Transition
+$common-transition: 0.3s;
+
+// Fonts
+@font-face {
+  font-family: headingsFont;
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: bodyFont;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+$headings-font: headingsFont;
+$body-font: bodyFont;
